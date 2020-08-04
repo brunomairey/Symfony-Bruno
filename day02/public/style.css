@@ -1,0 +1,16 @@
+.positionning {
+  position: absolute;
+  top: 0vw; }
+
+#linkformatting {
+  color: black;
+  font-size: 2vw;
+  font-style: bold; }
+
+#title {
+  position: absolute;
+  top: 12vw;
+  color: black;
+  font-size: 3vw; }
+
+/*# sourceMappingURL=style.css.map */

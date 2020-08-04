@@ -35,6 +35,16 @@ class TestController extends AbstractController
         return $this->render('test/print.html.twig',array("name"=>$name, "title" => "Bienvenue here", "age" => 17));
     }
 
+
+ /**
+     * @Route("/gogi", name="gogi")
+     */
+    public function gogi()
+    {
+        
+        return $this->render('test/gogi.html.twig',array("title" => "Bienvenue here", "age" => 17));
+    }
+
    
 }
 

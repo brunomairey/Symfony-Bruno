@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TestController!{% endblock %}
+
+{% block body %}
+
+<div class="jumbotron jumbotron-fluid m-5">
+  <div class="container">
+   
+ 
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <a href="https://bruno2go.travelmap.net/posts/trek-en-bolivie-jour-1-passage-vers-la-bolivie" style="text-decoration: none">
+      <img src="{{asset('img/blog1.jpg')}}" class="d-block w-100" alt="blog1" style="object-fit: cover; object-position: 50% 50%; height: 30vw">
+            <p class="mt-2" style="color: black; font-size: 1vw; font-style: bold">Aujourd’hui, départ pour la Bolivie. Première conclusion, c’est haut, on oscille entre 4000 et 5000 m d’altitude. Nos corps à Anne-Sophie et moi supportent maintenant très bien l’altitude, ce qui n’est pas le cas pour tous les gens du groupe.Le passage de frontière se fait sans encombre, c’est à peine si les douaniers regardent les papiers.</p></a>   
+            </div>
+    <div class="carousel-item">
+      <a href="https://bruno2go.travelmap.net/posts/trek-en-bolivie-jour-1-passage-vers-la-bolivie" style="text-decoration: none">
+      <img src="{{asset('img/blog2.jpg')}}" class="d-block w-100" alt="blog2" style="object-fit: cover; object-position: 50% 50%; height: 30vw">
+	<p class="mt-2" style="color: black; font-size: 1vw; font-style: bold">Ensuite, on découvre la beauté des lagunes d’altitude boliviennes, chacune ayant des couleurs plus improbable les unes que les autres : bleu turquoise, vert, rouge. Les flamands roses sont aussi présents pour compléter le décor grandiose.</p></a>
+    </div>
+     <div class="carousel-item">
+     	<a href="https://bruno2go.travelmap.net/posts/trek-en-bolivie-jour-1-passage-vers-la-bolivie" style="text-decoration: none">
+      <img src="{{asset('img/blog3.jpg')}}" class="d-block w-100" alt="blog2" style="object-fit: cover; object-position: 50% 50%; height: 30vw">
+	<p class="mt-2" style="color: black; font-size: 1vw; font-style: bold">Ensuite, on découvre la beauté des lagunes d’altitude boliviennes, chacune ayant des couleurs plus improbable les unes que les autres : bleu turquoise, vert, rouge. Les flamands roses sont aussi présents pour compléter le décor grandiose.</p></a>
+    </div>
+    <div class="carousel-item">
+    	<a href="https://bruno2go.travelmap.net/posts/trek-en-bolivie-jour-1-passage-vers-la-bolivie" style="text-decoration: none">
+      <img src="{{asset('img/blog4.jpg')}}" class="d-block w-100" alt="blog3" style="object-fit: cover; object-position: 50% 50%; height: 30vw">
+    <p class="mt-2" style="color: black; font-size: 1vw; font-style: bold">Puis première nuit à 4300 m d’altitude, qui s’annonce froide. (-10 degré dehors et pas de chauffage à l’intérieur) dans un dortoir de 6. Le mot rustique caractérise bien le lieu et pour certains du groupe, c’est la vraie aventure. Avec Anne-Sophie, on apparaît comme très bien équipés alors qu’on a les plus petits sacs du groupe, l’expérience montagnarde parle.</p></a>
+    </div>
+  </div>
+  
+</div> </div>
+</div>
+
+{# <img src={{asset('img/hero2.jpg')}}> #}
+{% endblock %}

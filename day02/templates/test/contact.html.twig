@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact Us!{% endblock %}
+
+{% block body %}
+
+<div class="mx-5">
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+ <label>
+  First Name:
+   <input type="text" class="form-control" formControlName="firstName">
+ </label>
+</div>
+<div class="form-group">
+ <label>
+   Last Name:
+   <input type="text" class="form-control" formControlName="lastName">
+ </label>
+</div>
+<div class="form-group">
+ <label>
+   Email:
+   <input type="email" class="form-control" formControlName="email">
+ </label>
+</div>
+ <label>
+   Your message:
+    <textarea class="form-control" rows="5" formControlName="message" style="width:40vw"></textarea>
+ </label>
+<br>
+
+<div class="mx-5 my-3">
+  <input type="submit" class="btn btn-dark" value="Submit" style="width: 15vw">
+</div>
+</form>
+</div>
+{% endblock %}
