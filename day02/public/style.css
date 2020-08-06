@@ -1,3 +1,9 @@
+#bruno {
+  background: url("../img/hero2.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  height: 30vw;
+  border: solid blue 1px; }
+
 .positionning {
   position: absolute;
   top: 0vw; }

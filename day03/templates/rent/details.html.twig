@@ -1,0 +1,20 @@
+
+{% block title %}Details{% endblock %}
+
+{% extends 'base.html.twig' %}
+{% block body %}
+       
+       <hr>
+       <h2 class="page-header">{{car.name}}</h2>
+       <ul class="list-group m-5">
+               <li class="list-group-item">Category: {{car.category}}</li>
+               <li class="list-group-item">Priority: {{car.price}}</li>
+               <li class="list-group-item">Created: <strong> {{car.CreatedAt|date('D d/m/y')}} at {{car.CreatedAt|date('H:i')}}</strong> </li>
+       
+       <p>
+               {{car.description}}
+       </p><br>
+       </ul>
+       <a class="btn btn-info m-5" href="/">Back to Cars</a>
+       
+{% endblock %}
